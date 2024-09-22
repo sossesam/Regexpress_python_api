@@ -1,0 +1,101 @@
+{
+  "User.a4770690-5e55-4482-8363-331c7dedc7e0": {
+    "id": "a4770690-5e55-4482-8363-331c7dedc7e0",
+    "created_at": "2024-09-16T17:22:10.883650",
+    "updated_at": "2024-09-16T17:22:10.883687",
+    "first_name": "Betty",
+    "last_name": "Bar",
+    "email": "airbnb@mail.com",
+    "password": "root",
+    "__class__": "User"
+  },
+  "User.9698580b-fa41-4353-82cf-30900eec4744": {
+    "id": "9698580b-fa41-4353-82cf-30900eec4744",
+    "created_at": "2024-09-16T17:22:10.884565",
+    "updated_at": "2024-09-16T17:22:10.884607",
+    "first_name": "John",
+    "email": "airbnb2@mail.com",
+    "password": "root",
+    "__class__": "User"
+  },
+  "Document.c4697c5c-0ced-42ae-8875-bf7420586392": {
+    "id": "c4697c5c-0ced-42ae-8875-bf7420586392",
+    "created_at": "2024-09-17T01:04:32.470961",
+    "updated_at": "2024-09-17T01:58:12.347529",
+    "name": "Vehicle license",
+    "category_id": "9f7921f2-8a6c-4791-89b0-f9daead51d02",
+    "__class__": "Document"
+  },
+  "Document.0bf65ba2-ad24-426d-8562-80b2da941b50": {
+    "id": "0bf65ba2-ad24-426d-8562-80b2da941b50",
+    "created_at": "2024-09-17T01:05:32.943129",
+    "updated_at": "2024-09-17T01:59:58.906191",
+    "name": "Road worthiness",
+    "category_id": "9f7921f2-8a6c-4791-89b0-f9daead51d02",
+    "__class__": "Document"
+  },
+  "Document.e98a5fa3-a9d1-430f-a91e-90f642418ff7": {
+    "id": "e98a5fa3-a9d1-430f-a91e-90f642418ff7",
+    "created_at": "2024-09-17T01:08:31.958915",
+    "updated_at": "2024-09-17T02:01:33.936262",
+    "name": "Insurance",
+    "category_id": "9f7921f2-8a6c-4791-89b0-f9daead51d02",
+    "__class__": "Document"
+  },
+  "Category.9f7921f2-8a6c-4791-89b0-f9daead51d02": {
+    "id": "9f7921f2-8a6c-4791-89b0-f9daead51d02",
+    "created_at": "2024-09-17T01:54:13.471316",
+    "updated_at": "2024-09-17T01:54:13.471349",
+    "__class__": "Category"
+  },
+  "Category.c3dd1e36-1217-474c-89f8-37c1da7c2d66": {
+    "id": "c3dd1e36-1217-474c-89f8-37c1da7c2d66",
+    "created_at": "2024-09-17T02:19:50.020292",
+    "updated_at": "2024-09-17T02:19:50.020331",
+    "__class__": "Category"
+  },
+  "Document.cd6e0531-c017-4e64-8ee9-5c9de251674c": {
+    "id": "cd6e0531-c017-4e64-8ee9-5c9de251674c",
+    "created_at": "2024-09-17T02:22:36.791766",
+    "updated_at": "2024-09-17T02:22:36.791817",
+    "name": "Vehicle license",
+    "__class__": "Document"
+  },
+  "Document.37042398-62fa-49a4-bc60-792a915a59bd": {
+    "id": "37042398-62fa-49a4-bc60-792a915a59bd",
+    "created_at": "2024-09-17T02:25:25.809693",
+    "updated_at": "2024-09-17T02:25:25.809743",
+    "name": "Vehicle license",
+    "__class__": "Document"
+  },
+  "Document.196d709a-5309-4b20-b8d0-b9f3d8fa4e84": {
+    "id": "196d709a-5309-4b20-b8d0-b9f3d8fa4e84",
+    "created_at": "2024-09-17T02:25:43.253291",
+    "updated_at": "2024-09-17T02:25:43.253328",
+    "name": "Vehicle license",
+    "__class__": "Document"
+  },
+  "Document.3c38c48a-cb9f-4c49-8b0e-07a00c0fa819": {
+    "id": "3c38c48a-cb9f-4c49-8b0e-07a00c0fa819",
+    "created_at": "2024-09-17T02:32:58.708928",
+    "updated_at": "2024-09-17T02:32:58.708966",
+    "name": "Vehicle license",
+    "__class__": "Document"
+  },
+  "CarMake.5f651492-051b-4ec1-a6fd-6fab3cbd6ff3": {
+    "id": "5f651492-051b-4ec1-a6fd-6fab3cbd6ff3",
+    "created_at": "2024-09-20T12:26:30.124945",
+    "updated_at": "2024-09-20T12:26:30.125013",
+    "name": "toyota",
+    "description": "not set",
+    "__class__": "CarMake"
+  },
+  "CarMake.9826b7a6-1a52-42dd-a935-734be0e6807d": {
+    "id": "9826b7a6-1a52-42dd-a935-734be0e6807d",
+    "created_at": "2024-09-20T12:29:14.137280",
+    "updated_at": "2024-09-20T12:41:39.379624",
+    "name": "Hyundai",
+    "description": "not set",
+    "__class__": "CarMake"
+  }
+}
