@@ -1,28 +1,16 @@
-#!/usr/bin/python3
-from models import storage
-from models.base_model import BaseModel
-from models.user import User
+#!./regexpress_api/bin/python3
+import pytesseract
+from pdf2image import convert_from_path
 
-all_objs = storage.all()
-print("-- Reloaded objects --")
-for obj_id in all_objs.keys():
-    obj = all_objs[obj_id]
-    print(obj)
+# convert to image using resolution 600 dpi 
+pages = convert_from_path("file:///home/sanmi/Downloads/FKJ 136 FX.pdf", 600)
 
-print("-- Create a new User --")
-my_user = User()
-my_user.first_name = "Betty"
-my_user.last_name = "Bar"
-my_user.email = "airbnb@mail.com"
-my_user.password = "root"
-my_user.save()
-print(my_user)
+# extract text
+text_data = ''
+for page in pages:
+    text = pytesseract.image_to_string(page, lang='eng')
+    text_data += text + '>>>'
 
-print("-- Create a new User 2 --")
-my_user2 = User()
-my_user2.first_name = "John"
-my_user2.email = "airbnb2@mail.com"
-my_user2.password = "root"
-my_user2.save()
-print(my_user2)
-
+    print("**unknown**")
+    text_data + '\n page done'
+print(text_data)

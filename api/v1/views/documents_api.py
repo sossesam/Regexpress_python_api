@@ -47,6 +47,8 @@ def delete_city(document_id):
 
     return make_response(jsonify({}), 200)
 
+
+
 @app_views.route('/categories/<category_id>/documents', methods=['POST'],
                  strict_slashes=False)
 
